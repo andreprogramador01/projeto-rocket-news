@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+.conteudo{
+    display: flex;
+    position: relative;
+}
+.conteudo-background{
+    background: url(../assets/image.png) no-repeat;
+    background-size: 100%;
+    width: 1175px;
+    height: 860px;
+    position: absolute;
+    left: 376px;
+    z-index:-1;
+    
+}
+.conteudo-background-cinza{
+    background-color: #121214;
+    width: 720px;
+    height: 860px;
+    padding:50px 0 0 30px;
+}
+.conteudo-img{
+    width: 389px;
+    height: 94px;
+    
+}
+.conteudo-chamada1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top:92px;
+    /* Green */
+    color: #08C05E;
+    
+}
+.conteudo-chamada2{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top:11px;
+}
+.conteudo-subtitulo{
+    font-family: ' League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top:9px;
+    color: #FFFFFF;
+}
+form label{
+    display: block;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%;
+    color: #A8A8A8;
+    margin-top:50px;
+}
+.email{
+    height: 48px;
+    width:500px;
+    margin-top:17px;
+    outline:none;
+}
+.enviar{
+    width: 48px;
+    height: 48px;
+    background-image: url(../assets/send.svg);
+    background-repeat: no-repeat;
+    background-color:#8257E5;
+    background-position: center;
+    border:none;
+    fill:#FFF;
+}
+.conteudo-deixe-me{
+font-family: 'League Spartan';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 138.73%;
+display: flex;
+align-items:center;
+color: #8257E5;
+margin-top:52px;
+
+
+
+}
+.conteudo-deixe-me a{
+    text-decoration:none;
+    color: #8257E5;
+}
+.conteudo-deixe-me img{
+    filter: invert(51%) sepia(60%) saturate(5760%) hue-rotate(236deg) brightness(91%) contrast(98%);
+}
